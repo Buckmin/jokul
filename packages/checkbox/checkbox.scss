@@ -35,8 +35,8 @@ $checkbox-background-color--error: $feil;
 .jkl-checkbox {
     @include jkl-text-style("desktop/body");
     display: flex;
-    align-items: center;
-    height: $checkbox-height;
+    flex-wrap: wrap;
+    min-height: $checkbox-height;
 
     &:hover > .jkl-checkbox__check-mark {
         transform: scale(1.1);
@@ -100,9 +100,16 @@ $checkbox-background-color--error: $feil;
         }
     }
 
+    // The label text
+    &__check-text {
+        margin-top: rem(-3px);
+        margin-bottom: rem(12px);
+    }
+
     &__label {
         display: flex;
-        align-items: center;
+        flex-basis: 100%;
+        min-width: 0;
         cursor: pointer;
         flex-shrink: 0;
     }
@@ -194,7 +201,7 @@ $checkbox-background-color--error: $feil;
 
     @include compact-mode {
         @include jkl-text-style("compact/body");
-        height: $checkbox-height--compact;
+        min-height: $checkbox-height--compact;
 
         .jkl-checkbox__check-mark {
             height: $checkbox-box-size--compact;
@@ -204,7 +211,7 @@ $checkbox-background-color--error: $feil;
 
     @include small-device {
         @include jkl-text-style("compact/body");
-        height: $checkbox-height--compact;
+        min-height: $checkbox-height--compact;
 
         .jkl-checkbox__check-mark {
             height: $checkbox-box-size--compact;
