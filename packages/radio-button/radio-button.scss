@@ -89,6 +89,8 @@ $radio-button-color: $svart;
     &__dot {
         position: relative;
         margin-right: $component-spacing--small;
+        margin-top: rem(12px);
+        margin-bottom: rem(12px);
 
         /* Outer circle */
         &:before {
@@ -124,7 +126,8 @@ $radio-button-color: $svart;
     &__label {
         @include jkl-text-style("desktop/body");
         display: table;
-        margin-bottom: rem(15px);
+        margin-top: rem(10px);
+        margin-bottom: rem(10px);
     }
 
     &--inline {
