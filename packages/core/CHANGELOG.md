@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.5.6 (2020-06-29)
+
+**Note:** Version bump only for package @fremtind/jkl-core
+
+
+
+
+
+## [4.5.5](https://github.com/fremtind/jokul/compare/@fremtind/jkl-core@4.5.4...@fremtind/jkl-core@4.5.5) (2020-06-26)
+
+
+### Bug Fixes
+
+* **core:** make text style util classes respect compact mode ([1c04b73](https://github.com/fremtind/jokul/commit/1c04b73f94de60ead9d423966c0a250a1da2dd86))
+
+
+
+
+
+## 4.5.4 (2020-06-25)
+
+
+### Bug Fixes
+
+* **label:** add classname prop ([370d410](https://github.com/fremtind/jokul/commit/370d410e3af47d292f5c9ce60eaa2d512a4b5fff))
+
+
+
+
+
 ## 4.5.3 (2020-06-24)
 
 **Note:** Version bump only for package @fremtind/jkl-core

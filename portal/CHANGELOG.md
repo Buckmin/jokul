@@ -3,6 +3,130 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.6.4](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.6.3...@fremtind/portal@3.6.4) (2020-06-30)
+
+
+### Bug Fixes
+
+* portal/package.json & portal/.snyk to reduce vulnerabilities ([#1060](https://github.com/fremtind/jokul/issues/1060)) ([5b35981](https://github.com/fremtind/jokul/commit/5b35981577282ac7984f26c4e0f0f7814066e739))
+
+
+
+
+
+## [3.6.3](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.6.2...@fremtind/portal@3.6.3) (2020-06-29)
+
+**Note:** Version bump only for package @fremtind/portal
+
+
+
+
+
+## [3.6.2](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.6.1...@fremtind/portal@3.6.2) (2020-06-29)
+
+**Note:** Version bump only for package @fremtind/portal
+
+
+
+
+
+## [3.6.1](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.6.0...@fremtind/portal@3.6.1) (2020-06-26)
+
+**Note:** Version bump only for package @fremtind/portal
+
+
+
+
+
+# [3.6.0](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.5.4...@fremtind/portal@3.6.0) (2020-06-26)
+
+
+### Features
+
+* add util package for validation ([417ac14](https://github.com/fremtind/jokul/commit/417ac145a3c021f3b5f9e5fc2824ce4021e55e21))
+
+
+
+
+
+## [3.5.4](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.5.3...@fremtind/portal@3.5.4) (2020-06-26)
+
+**Note:** Version bump only for package @fremtind/portal
+
+
+
+
+
+## [3.5.3](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.5.2...@fremtind/portal@3.5.3) (2020-06-26)
+
+**Note:** Version bump only for package @fremtind/portal
+
+
+
+
+
+## [3.5.2](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.5.1...@fremtind/portal@3.5.2) (2020-06-26)
+
+**Note:** Version bump only for package @fremtind/portal
+
+
+
+
+
+## [3.5.1](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.5.0...@fremtind/portal@3.5.1) (2020-06-26)
+
+**Note:** Version bump only for package @fremtind/portal
+
+
+
+
+
+# [3.5.0](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.4.6...@fremtind/portal@3.5.0) (2020-06-26)
+
+
+### Features
+
+* **portal:** add ids to level 2 headings for linking ([4dfd1d3](https://github.com/fremtind/jokul/commit/4dfd1d33042a9148c9bc794572018f2445e60d50))
+
+
+
+
+
+## [3.4.6](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.4.5...@fremtind/portal@3.4.6) (2020-06-26)
+
+**Note:** Version bump only for package @fremtind/portal
+
+
+
+
+
+## [3.4.5](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.4.4...@fremtind/portal@3.4.5) (2020-06-25)
+
+**Note:** Version bump only for package @fremtind/portal
+
+
+
+
+
+## [3.4.4](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.4.3...@fremtind/portal@3.4.4) (2020-06-24)
+
+
+### Bug Fixes
+
+* **portal:** adjust margins and font sizes on mobile ([f78acd5](https://github.com/fremtind/jokul/commit/f78acd5edcefffbb227ff6150b618d2754635e0d))
+
+
+
+
+
+## [3.4.3](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.4.2...@fremtind/portal@3.4.3) (2020-06-24)
+
+**Note:** Version bump only for package @fremtind/portal
+
+
+
+
+
 ## [3.4.2](https://github.com/fremtind/jokul/compare/@fremtind/portal@3.4.1...@fremtind/portal@3.4.2) (2020-06-24)
 
 **Note:** Version bump only for package @fremtind/portal
