@@ -1,5 +1,5 @@
 import React from "react";
-import * as downloadjs from "downloadjs";
+import downloadjs from "downloadjs";
 import classNames from "classnames";
 
 import "./DownloadAsset.scss";
@@ -17,8 +17,8 @@ export function DownloadAsset({ asset = "", name, type, darkbg = false }: Props)
         "jkl-portal-downloadasset--dark-bg": darkbg,
     });
     const textClassName = classNames({
-        "jkl-portal-downloadasset--name": true,
-        "jkl-portal-downloadasset--name-dark": darkbg,
+        "jkl-portal-downloadasset__name": true,
+        "jkl-portal-downloadasset__name--dark": darkbg,
     });
     const clickDownload = (event: React.MouseEvent) => {
         event.preventDefault();
@@ -37,8 +37,8 @@ export function DownloadAsset({ asset = "", name, type, darkbg = false }: Props)
     };
     return (
         <div className={componentClassName}>
-            <button className="jkl-portal-downloadasset--button" onClick={(e: React.MouseEvent) => clickDownload(e)}>
-                <img className="jkl-portal-downloadasset--image" src={asset} alt={"Fil " + name} />
+            <button className="jkl-portal-downloadasset__button" onClick={clickDownload}>
+                <img className="jkl-portal-downloadasset__image" src={asset} alt={"Fil " + name} />
                 <span className={textClassName}>{name}</span>
             </button>
         </div>
